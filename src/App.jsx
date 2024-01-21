@@ -13,7 +13,7 @@ function App() {
     );
     const res = await response.json();
 
-    console.log(res.Search);
+    // console.log(res.Search);
     setMovies(res.Search);
   };
 
